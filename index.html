@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+    <title>Crystal Collector</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="./assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="container text-center">
+                    <h1>Crystal Collector 3000</h1>
+                    <p id="instructions">
+                        Match the magic number by clicking on the crystals to add points to your total. Each crystal will add a specific number of points to your total, but you will not know the amount until you click on them. That amount will change each time the game is played, as will the magic number. If you match the magic number, you win. If your total goes above the magic number, you lose.
+                    </p>
+                </div>
+            </div>
+            <div class="container row">
+            <div class="col-md-8 col-md-offset-2 panel panel default game-panel text-center">
+                <div class="number-panel">
+                	<h3>Magic Number: </br><span id="magic-number"></span></h3>
+                	<h3>Your Score: </br><span id="user-score"></span></h3>
+                	<span id="wins"></span>
+                	<span id="losses"></span>
+                </div>
+                <div class="crystal-panel text-center">
+					<img src="./assets/images/garnet.png" alt="garnet" id="garnet-crystal">
+					<img src="./assets/images/diamond.png" alt="diamond" id="diamond-crystal">
+					<img src="./assets/images/emerald.png" alt="emerald" id="emerald-crystal">
+					<img src="./assets/images/tanzanite.png" alt="tanzanite" id="tanzanite-crystal">
+				</div>
+			</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+body, html {
+	display: block;
+	height: 100%;
+    margin: 0;
+    color: #fff;
+
+}
+
+.bg-img {
+	background-image: url(../images/darkness.png);
+	background-repeat: repeat;
+	height: 200%;
+}
+
+.jumbotron {
+	background-color: transparent;
+	color: #fff;
+	}
+
+.jumbotron h1 {
+	font-family: 'Orbitron', sans-serif;
+
+}
+.game-panel {
+	color: limegreen;
+	background: transparent;
+	border: solid 2px white;
+	padding: 40px;
+}
+
+.score {
+	color: #fff;
+	font-size: 50px;
+}
+.crystal-panel {
+    display: inline-block;
+
+}
+.crystal-panel img {
+	height: 80px;
+	margin: 20px;
+}
+
